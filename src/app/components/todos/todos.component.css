@@ -1,0 +1,19 @@
+.todo {
+    display: flex;
+}
+
+.todo.done .content {
+    text-decoration: line-through;
+}
+
+.todo, .id, .content, .delete, .todo-input, .submit {
+    padding: 5px;
+}
+
+.content, .delete {
+    cursor: pointer;
+}
+
+.input-form, .todo-input, .submit {
+    margin: 5px
+}
